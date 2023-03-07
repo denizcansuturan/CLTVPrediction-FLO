@@ -45,7 +45,7 @@ from lifetimes import GammaGammaFitter
 from lifetimes.plotting import plot_period_transactions
 
 pd.set_option('display.max_columns', None) # to see all the columns
-df_ = pd.read_csv("D:/MIUUL/CRM/CASE STUDY 2/FLOCLTVPrediction/flo_data_20k.csv")
+df_ = pd.read_csv("location")
 df = df_.copy()
 
 # 2. Define the outlier_thresholds and replace_with_thresholds functions needed to suppress outliers.
